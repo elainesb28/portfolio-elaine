@@ -596,6 +596,12 @@ a {
         linear-gradient(145deg,#0b2942,#326f69);
 }
 
+.precocerto {
+
+    background:
+        linear-gradient(145deg,#241457,#5b2f96 55%,#7c3aed);
+}
+
 
 /* mini dashboard */
 
@@ -622,6 +628,76 @@ a {
 
     background: #bdd8cc;
 }
+
+
+/* mini painel de preço (PreçoCerto) */
+
+.price-mock {
+
+    width: 74%;
+
+    background: #f6f2ff;
+
+    border-radius: 10px;
+
+    padding: 16px 18px;
+
+    box-shadow: 0 15px 25px rgba(0,0,0,.2);
+}
+
+.price-mock-line {
+
+    display: block;
+
+    width: 60%;
+    height: 8px;
+
+    border-radius: 4px;
+
+    background: #ddd0fb;
+
+    margin-bottom: 12px;
+}
+
+.price-mock strong {
+
+    display: block;
+
+    font-family: "Cormorant Garamond", serif;
+
+    font-size: 24px;
+
+    color: #6d28d9;
+
+    margin-bottom: 14px;
+}
+
+.price-mock-bars {
+
+    display: flex;
+
+    align-items: flex-end;
+
+    gap: 6px;
+
+    height: 32px;
+}
+
+.price-mock-bars i {
+
+    display: block;
+
+    width: 12px;
+
+    border-radius: 3px 3px 0 0;
+
+    background: linear-gradient(180deg, #a78bfa, #7c3aed);
+}
+
+.price-mock-bars i:nth-child(1) { height: 40%; }
+.price-mock-bars i:nth-child(2) { height: 62%; }
+.price-mock-bars i:nth-child(3) { height: 84%; }
+.price-mock-bars i:nth-child(4) { height: 100%; }
 
 
 /* logos */
@@ -702,6 +778,15 @@ a {
     font-size: 13px;
 
     font-weight: 600;
+}
+
+.project-links {
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+    gap: 8px 20px;
 }
 
 

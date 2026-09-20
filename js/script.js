@@ -191,7 +191,7 @@ const cartoes = [
             [".project-info h3", "up"],
             [".project-info p", "up"],
             [".tags span", "pop"],
-            [".project-info > a", "left"]
+            [".project-info > a, .project-links a", "left"]
         ]
     },
 
